@@ -1,11 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T03:20:10.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="5nNtvQ2IfvvxPTe95Cl1" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-29T04:38:52.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="PyW4dG35uQcl9vrkjsf_" version="20.0.3" type="github">
   <diagram id="qTpaM_5FKfYm27YgMzIi" name="Page-1">
     <mxGraphModel dx="1550" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=diamond;endFill=1;endSize=25;" edge="1" parent="1" source="_kGQyGgh4MkQ-XX_quqn-10" target="_kGQyGgh4MkQ-XX_quqn-14">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=diamond;endFill=1;endSize=25;" edge="1" parent="1" source="_kGQyGgh4MkQ-XX_quqn-10">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="722.5" y="680" as="targetPoint" />
             <Array as="points">
               <mxPoint x="723" y="587" />
             </Array>
@@ -23,23 +24,31 @@
         <mxCell id="_kGQyGgh4MkQ-XX_quqn-13" value="+ getListener(): WeakListener" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" parent="_kGQyGgh4MkQ-XX_quqn-10" vertex="1">
           <mxGeometry y="132" width="530" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.26;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=1;endSize=25;" edge="1" parent="1" source="_kGQyGgh4MkQ-XX_quqn-14" target="_kGQyGgh4MkQ-XX_quqn-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_kGQyGgh4MkQ-XX_quqn-14" value="WeakListener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=25;" parent="1" vertex="1">
-          <mxGeometry x="340" y="680" width="510" height="186" as="geometry" />
-        </mxCell>
-        <mxCell id="_kGQyGgh4MkQ-XX_quqn-15" value="# referent: ViewDataBinding&#xa;- mObservable: ObservableReference&lt;T&gt;&#xa;# mLocalFIeldId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" parent="_kGQyGgh4MkQ-XX_quqn-14" vertex="1">
-          <mxGeometry y="60" width="510" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="_kGQyGgh4MkQ-XX_quqn-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=25;" parent="_kGQyGgh4MkQ-XX_quqn-14" vertex="1">
-          <mxGeometry y="184" width="510" height="2" as="geometry" />
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.26;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=1;endSize=25;" edge="1" parent="1" target="_kGQyGgh4MkQ-XX_quqn-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="467.5" y="680" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="aFTcqdEbH-1OrSzo15Ft-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;WeakPropertyListener是WeakListener的包装类，同时也是onPropertyChangedCallback的子类，里面的mListener实际上就是WeakListener的引用&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="920" y="380" width="720" height="30" as="geometry" />
+          <mxGeometry x="1000" y="377" width="720" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aFTcqdEbH-1OrSzo15Ft-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;WeakListener里面的mObservable实际上就是WeakPropertyListener的引用，这两个类是互相引用的！&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="920" y="740" width="720" height="30" as="geometry" />
+          <mxGeometry x="990" y="740" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-8" value="WeakListener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="260" y="680" width="680" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-9" value="# referent: ViewDataBinding&#xa;- mObservable: ObservableReference&lt;T&gt;&#xa;# mLocalFIeldId: int&#xa;- mTarget: T" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" vertex="1" parent="aFTcqdEbH-1OrSzo15Ft-8">
+          <mxGeometry y="50" width="680" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=30;" vertex="1" parent="aFTcqdEbH-1OrSzo15Ft-8">
+          <mxGeometry y="200" width="680" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-11" value="+ setTarget()&#xa;+ getTarget(): T" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" vertex="1" parent="aFTcqdEbH-1OrSzo15Ft-8">
+          <mxGeometry y="208" width="680" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-13" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;mTarget是需要被观察的数据对象，比如我们的例子User数据类&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="870" width="720" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
