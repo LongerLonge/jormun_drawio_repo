@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T05:22:24.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="AlXRXrmSqdfRHqF6m_ZJ" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-30T03:35:55.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="ZLk93YjsTil2oputk9D_" version="20.0.3" type="github">
   <diagram id="qTpaM_5FKfYm27YgMzIi" name="Page-1">
-    <mxGraphModel dx="1550" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
+    <mxGraphModel dx="2818" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=diamond;endFill=1;endSize=25;" edge="1" parent="1" source="_kGQyGgh4MkQ-XX_quqn-10">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=diamond;endFill=1;endSize=25;" parent="1" source="_kGQyGgh4MkQ-XX_quqn-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="722.5" y="680" as="targetPoint" />
             <Array as="points">
@@ -24,31 +24,110 @@
         <mxCell id="_kGQyGgh4MkQ-XX_quqn-13" value="+ getListener(): WeakListener&#xa;+ addListener(Observable)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" parent="_kGQyGgh4MkQ-XX_quqn-10" vertex="1">
           <mxGeometry y="132" width="530" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.26;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=1;endSize=25;" edge="1" parent="1" target="_kGQyGgh4MkQ-XX_quqn-13">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.26;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=1;endSize=25;" parent="1" target="_kGQyGgh4MkQ-XX_quqn-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="467.5" y="680" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;WeakPropertyListener是WeakListener的包装类，同时也是onPropertyChangedCallback的子类，里面的mListener实际上就是WeakListener的引用&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;WeakPropertyListener是WeakListener的包装类，同时也是onPropertyChangedCallback的子类，里面的mListener实际上就是WeakListener的引用&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1000" y="377" width="720" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;WeakListener里面的mObservable实际上就是WeakPropertyListener的引用，这两个类是互相引用的！&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;WeakListener里面的mObservable实际上就是WeakPropertyListener的引用，这两个类是互相引用的！&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="990" y="740" width="720" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-8" value="WeakListener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=30;" vertex="1" parent="1">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-8" value="WeakListener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="260" y="680" width="680" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-9" value="# referent: ViewDataBinding&#xa;- mObservable: ObservableReference&lt;T&gt;&#xa;# mLocalFIeldId: int&#xa;- mTarget: T" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" vertex="1" parent="aFTcqdEbH-1OrSzo15Ft-8">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-9" value="# referent: ViewDataBinding&#xa;- mObservable: ObservableReference&lt;T&gt;&#xa;# mLocalFIeldId: int&#xa;- mTarget: T" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" parent="aFTcqdEbH-1OrSzo15Ft-8" vertex="1">
           <mxGeometry y="50" width="680" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=30;" vertex="1" parent="aFTcqdEbH-1OrSzo15Ft-8">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=30;" parent="aFTcqdEbH-1OrSzo15Ft-8" vertex="1">
           <mxGeometry y="200" width="680" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-11" value="+ setTarget()&#xa;+ getTarget(): T" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" vertex="1" parent="aFTcqdEbH-1OrSzo15Ft-8">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-11" value="+ setTarget()&#xa;+ getTarget(): T" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=25;" parent="aFTcqdEbH-1OrSzo15Ft-8" vertex="1">
           <mxGeometry y="208" width="680" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="aFTcqdEbH-1OrSzo15Ft-13" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;mTarget是需要被观察的数据对象，比如我们的例子User数据类，通过setTarget，让WeakPropertyListener监听这个User数据类。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aFTcqdEbH-1OrSzo15Ft-13" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 30px; background-color: initial;&quot;&gt;mTarget是需要被观察的数据对象，比如我们的例子User数据类，通过setTarget，让WeakPropertyListener监听这个User数据类。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="990" y="870" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1150" width="950" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-2" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;ViewDataBinding&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="1190" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1320" width="530" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-21" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;mLocalFieldObservers&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1360" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="1450" width="455" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="1630" width="455" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="1810" width="455" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="1787.5" y="2000" width="455" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-27" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;BR.all = 0&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1490" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-28" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;BR.user = 1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="1675" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-29" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;BR.name = 2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1850" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-30" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;BR.age = 3&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="2040" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-31" value="&lt;span style=&quot;font-size: 35px;&quot;&gt;.&lt;br&gt;.&lt;br&gt;.&lt;br&gt;.&lt;br&gt;.&lt;br&gt;.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1826.25" y="2170" width="372.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=35;" edge="1" parent="1" source="ve7Y321LJMcp1hGjDfz3-32" target="ve7Y321LJMcp1hGjDfz3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="3020" y="1310" width="1690" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-33" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;WeakListener&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="1350" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=35;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ve7Y321LJMcp1hGjDfz3-34" target="ve7Y321LJMcp1hGjDfz3-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4170" y="1480" />
+              <mxPoint x="4170" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-41" value="addCallBack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=35;fontFamily=Helvetica;" vertex="1" connectable="0" parent="ve7Y321LJMcp1hGjDfz3-40">
+          <mxGeometry x="-0.1145" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="1420" width="910" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-35" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 35px;&quot;&gt;mObservable = WeakPropertyListener&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="1465" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="1610" width="910" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-37" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 35px;&quot;&gt;mLocalFIeldId = BR.user = 0&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="1655" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="1820" width="910" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ve7Y321LJMcp1hGjDfz3-39" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 35px;&quot;&gt;mTarget = Observable = user&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="1865" width="490" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
