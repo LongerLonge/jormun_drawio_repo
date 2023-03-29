@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T11:38:54.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="THkZMZn8umKRKTduccaq" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T11:45:09.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="Kp5d2GeGSF4ComG5Favu" version="21.0.6" type="github">
   <diagram name="第 1 页" id="Vz_Ou_vIJKnbPctzGYPs">
     <mxGraphModel dx="1377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -281,8 +281,8 @@
         <mxCell id="d34w9SrFDDYaPFEFCoav-110" value="Router Jar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="1189.99" y="2390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d34w9SrFDDYaPFEFCoav-115" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;App Module因为已经依赖了这些Module，因此拥有了这些Module的Jar包，所以可以随意访问不受限。&lt;br&gt;&lt;br&gt;但是各个Module之间是互相独立无依赖的，因此没有对方的Jar包无法直接彼此访问！&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="2890" width="355" height="110" as="geometry" />
+        <mxCell id="d34w9SrFDDYaPFEFCoav-115" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;因为每个业务Module包括App Module都依赖了Router Module，所以它们里面都包含了Router Module的 Jar，可以调用Router的方法。&lt;br&gt;&lt;br&gt;每个业务Module通过调用Router里面的注册方法，把自己注册到Router里面的router map。&lt;br&gt;&lt;br&gt;当业务Module调用Router的jumpActivity，Router从router map里找到对应的类，帮忙实现跳转。&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="146.88" y="2560" width="430" height="180" as="geometry" />
         </mxCell>
         <mxCell id="d34w9SrFDDYaPFEFCoav-116" value="Router Jar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="712.5" y="2120" width="120" height="60" as="geometry" />
