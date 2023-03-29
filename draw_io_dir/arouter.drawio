@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T09:48:55.586Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="ZxaGiu_QaQUgc61npMA9" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T09:51:58.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="xmgR_eUuQixKIb4kJP8A" version="21.0.6" type="github">
   <diagram name="第 1 页" id="Vz_Ou_vIJKnbPctzGYPs">
     <mxGraphModel dx="1377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -114,6 +114,24 @@
             <mxPoint x="680" y="810" as="sourcePoint" />
             <mxPoint x="730" y="760" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="d34w9SrFDDYaPFEFCoav-31" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1070" width="610" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="d34w9SrFDDYaPFEFCoav-33" value="Login Jar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d34w9SrFDDYaPFEFCoav-34" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 30px;&quot;&gt;App Module&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="671.87" y="1080" width="246.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d34w9SrFDDYaPFEFCoav-35" value="app program" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="734.99" y="1140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d34w9SrFDDYaPFEFCoav-36" value="UserProfile Jar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d34w9SrFDDYaPFEFCoav-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1410" width="260" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
