@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T04:16:07.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="OFU1eEGMCIOIPcklPcRo" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T04:32:24.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="zswLCeO9gIVCS8bONxbS" version="21.5.0" type="github">
   <diagram name="第 1 页" id="9gG5TRduuXv9n2lvh1-l">
     <mxGraphModel dx="1379" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -202,13 +202,13 @@
         <mxCell id="rffLrHVSXQmOhtGYVr_i-25" value="&lt;font color=&quot;#000000&quot;&gt;MultiModelLoader&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1665" y="1990" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rffLrHVSXQmOhtGYVr_i-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.277;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.559;exitY=0.626;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="rffLrHVSXQmOhtGYVr_i-7" target="rffLrHVSXQmOhtGYVr_i-11">
+        <mxCell id="rffLrHVSXQmOhtGYVr_i-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.176;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.559;exitY=0.626;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="rffLrHVSXQmOhtGYVr_i-7" target="rffLrHVSXQmOhtGYVr_i-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1480" y="1910" as="sourcePoint" />
             <mxPoint x="1580" y="1830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rffLrHVSXQmOhtGYVr_i-27" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;entryX=0.336;entryY=0.622;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.265;exitY=0.577;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rffLrHVSXQmOhtGYVr_i-11" target="rffLrHVSXQmOhtGYVr_i-9">
+        <mxCell id="rffLrHVSXQmOhtGYVr_i-27" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;entryX=0.182;entryY=0.276;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.265;exitY=0.577;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rffLrHVSXQmOhtGYVr_i-11" target="rffLrHVSXQmOhtGYVr_i-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="810" y="1870" as="sourcePoint" />
             <mxPoint x="950" y="1880" as="targetPoint" />
@@ -316,6 +316,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1020" y="3080" as="sourcePoint" />
             <mxPoint x="850" y="2910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rffLrHVSXQmOhtGYVr_i-54" value="&lt;font color=&quot;#ff0000&quot;&gt;因为我们传入的是String.class，所以StringModelLoader被handles()&amp;nbsp; 筛选出来执行。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="915.38" y="1799.28" width="320" height="61.44" as="geometry" />
+        </mxCell>
+        <mxCell id="rffLrHVSXQmOhtGYVr_i-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.265;entryY=0.361;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;dashed=1;" edge="1" parent="1" source="rffLrHVSXQmOhtGYVr_i-54" target="rffLrHVSXQmOhtGYVr_i-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1155" y="1800" as="sourcePoint" />
+            <mxPoint x="945" y="1860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
