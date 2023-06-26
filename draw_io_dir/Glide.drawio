@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T03:52:03.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="CFkn0sMeUabbKr6HVvhn" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T03:53:37.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="s8fz_du407B_KTsiHOIh" version="21.5.0" type="github">
   <diagram name="第 1 页" id="9gG5TRduuXv9n2lvh1-l">
     <mxGraphModel dx="1379" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -225,6 +225,9 @@
             <mxPoint x="1040" y="1650" as="sourcePoint" />
             <mxPoint x="850" y="1790" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rffLrHVSXQmOhtGYVr_i-30" value="Part 2. 经过一系列操作，获得了一个StringModelLoader，里面包裹MultiModelLoader，Mu里面又包裹了一个List，里面有http和File。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1545" y="2210" width="300" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
