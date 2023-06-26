@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T04:32:24.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="zswLCeO9gIVCS8bONxbS" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T04:34:01.078Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="173YgPiUdr0z5-SnWP9f" version="21.5.0" type="github">
   <diagram name="第 1 页" id="9gG5TRduuXv9n2lvh1-l">
     <mxGraphModel dx="1379" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -325,6 +325,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1155" y="1800" as="sourcePoint" />
             <mxPoint x="945" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rffLrHVSXQmOhtGYVr_i-56" value="&lt;font color=&quot;#ff0000&quot;&gt;因为Uri+InputStream注册在Registry里面的有两个，也就是HttpLoader和FileLoader，所以返回的是一个包装类，里面包装了这两个类的列表。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2269.9999999999995" width="320" height="61.44" as="geometry" />
+        </mxCell>
+        <mxCell id="rffLrHVSXQmOhtGYVr_i-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.265;entryY=0.361;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;dashed=1;" edge="1" parent="1" source="rffLrHVSXQmOhtGYVr_i-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1165" y="2320" as="sourcePoint" />
+            <mxPoint x="840" y="2290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
